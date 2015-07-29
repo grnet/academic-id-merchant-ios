@@ -8,4 +8,4 @@
 	#import "Offers_CheckAppConstants.h" 
 #endif
 
-//#define NSLog(args, ...)
+#define NSLog(args, ...)
