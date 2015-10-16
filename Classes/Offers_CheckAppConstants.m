@@ -12,5 +12,5 @@
 #ifdef CONFIGURATION_DEBUG
 	NSString* const appBaseURL = @"http://academicidappbuilder.grnet.gr:8080/admin/web/ws/users/";
 #else
-	NSString* const appBaseURL = @"http://academicidapp.grnet.gr:8080/admin/web/ws/users/";
+	NSString* const appBaseURL = @"https://academicidapp.grnet.gr/admin/web/ws/users/";
 #endif
