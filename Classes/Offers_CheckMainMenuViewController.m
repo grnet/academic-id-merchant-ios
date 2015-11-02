@@ -35,6 +35,7 @@
 	UIButton *updateMsgButton = [UIButton buttonWithType:UIButtonTypeCustom];
 	updateMsgButton.bounds = CGRectMake(0, 0, 235, 30);
 	[updateMsgButton setTitle:@"Πιέστε το πλήκτρο ανάκτησης" forState:UIControlStateNormal];
+    [updateMsgButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
 	[updateMsgButton.titleLabel setFont:[UIFont fontWithName:@"Helvetica" size:12.0]];
 	UIBarButtonItem *updateMsgButtonItem = [[UIBarButtonItem alloc] initWithCustomView:updateMsgButton];
 	NSMutableArray *bottomBarItems = [toolBar.items mutableCopy];
